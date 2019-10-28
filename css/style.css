@@ -1158,8 +1158,8 @@ h6 {
   font-weight: 700;
 }
 .intro-info h2 span {
-  color: #74b5fc;
-  text-decoration: underline;
+  color: #fff;
+ /* text-decoration: underline;*/
 }
 .intro-info .btn-get-started {
   background: #007bff;
