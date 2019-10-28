@@ -1315,6 +1315,7 @@ h6 {
   #about-section .intro-img {
     width: 100%;
     float: right;
+    display: none;
 }
 #about-section .intro-info {
   width: 100%;
