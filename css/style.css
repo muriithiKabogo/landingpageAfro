@@ -1125,12 +1125,13 @@ h6 {
     position: relative;
     background: #00aff0;
     background-size: cover;
-    padding: 60px 0 40px 0;
+    padding: 90px 0 40px 0;
 }
 #about-section .intro-img {
-  width: 50%;
+  /*width: 50%;*/
   float: right;
 }
+
 .intro-img img{
   float:right !important;
 }
