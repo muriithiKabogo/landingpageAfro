@@ -1358,3 +1358,163 @@ margin-bottom: 20px !important;
     padding: 100px 0 20px 0;
   }
 }
+
+
+/******************************pricing page css***************************/
+section.banner-details-wrap {
+    position: relative;
+    padding: 50px 20px;
+}
+.banner-inner-details-wrap {
+    padding: 6%;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.pricing-plans-boxes .detail-boxes h4 {
+  font-size: 30px;
+    padding: 20px 20px 5px;
+    background: #f5f8ff;
+    color: #002ca6;
+}
+.pricing-plans-boxes .detail-boxes p {
+    background: #f5f8ff;
+    padding: 5px 15% 12px;
+    font-size: 14px;
+}
+.plan-bttn {
+    padding: 20px;
+  /*  border-top: 1px solid #efefef;*/
+}
+.detail-boxes {
+    border-radius: 2px;
+    box-shadow: 0 2px 20px 0 rgb(215 215 215);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.plan-details-data .base {
+    position: absolute;
+    right: -52px;
+    top: 24px;
+    background: #03a9f4;
+    width: 180px;
+    text-align: center;
+    height: 30px;
+    line-height: 28px;
+    color: #fff;
+    transform: rotate( 
+45deg
+ );
+}
+.plan-bttn {
+    text-align: center;
+}
+.plan-dteilas-feilds {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.plan-dteilas-feilds:last-child{
+  border-bottom: none;
+}
+.plan-dteilas-feilds h6 {
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.plan-dteilas-feilds span {
+    color: #797979;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 8px;
+}
+.pricing-plans-boxes .plan-bttn a, .pricing-new-banner .plan-bttn a {
+    background: #3368fa;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    line-height: normal;
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    text-align: center;
+    /*background-image: linear-gradient( 
+180deg
+ ,  #93cfff, #03a9f4);*/
+}
+.plan-details-data {
+   padding: 10px 20px;
+}
+.banner-inner-details-wrap h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+ul.plan-list-ul li {
+    list-style-type: none;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+  display: flex;
+}
+ul.plan-list-ul.pricing-new li {
+  margin-bottom: 15px;
+    padding: 20px;
+    margin: 0px 10%;
+    border-bottom: 2px dashed #e5e5e5;
+    display: block;
+  }
+ul.plan-list-ul li span svg {
+    width: 10px;
+    height: 10px;
+    color: #3368fa;
+}
+ul.plan-list-ul li span {
+    background: #ecf2ff;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 24px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+/******************new css*****************/
+.pricing-new-banner-wrap {
+    width: 100%;
+    position: relative;
+    background: #e1f7ff;
+    background-size: cover;
+    padding: 150px 0 40px 0;
+}
+.pricing-new-banner h6 {
+    font-size: 20px;
+}
+span.cstm-plans {
+    font-size: 14px;
+    }
+.cstm-plans:after{
+  content: "\21E2";
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: text-bottom;
+    color: #007bff;
+}
+footer.pricing-footer .footer-top{
+   background: #e1f7ff !important;
+}
+footer.pricing-footer {
+    background: #72b4cd !important;
+}
+footer.pricing-footer .footer-top h4, footer.pricing-footer .footer-top .footer-links ul a,
+footer.pricing-footer .footer-top .footer-contact p{
+  color: #000 !important;
+}
+.pricing-new-banner h1 {
+    font-size: 34px;
+}
